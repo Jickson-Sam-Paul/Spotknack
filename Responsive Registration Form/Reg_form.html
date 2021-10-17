@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>ONLINE COURSE REGISTRATION FORM</title>
+        <link rel="stylesheet" href="Reg_design.css">
+    </head>
+    <body>
+        <form class="form-main">
+        <div class="form-head">
+            <h2>COURSE REGISTRATION FORM</h2>
+        </div>
+         <div class="form-body">
+            <div class="First">
+            <label for="fname">First Name *</label><br>
+            <input type="text" id="fname" name="" placeholder="Enter your First Name" size="35">
+            </div>
+            <div class="Last">
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="" placeholder="Enter your Last Name" size="35">
+            <br>
+            </div>
+            Gender *:<br>
+              <input type="radio" id="m" name="gender" value="Male">
+              <label for="m">Male</label>
+              <input type="radio" id="f" name="gender" value="Female">
+              <label for="f">Female</label>
+            <br>
+            Date Of Birth *:<br>
+            <input type="date">
+            <br>
+            <label for="fname">College Name:</label><br>
+            <input type="text" id="cname" name="" placeholder="Enter your College Name" size="35"><br>
+            Interested courses *:
+            <br>
+            <input type="checkbox" id="1" name="courses" value="Python">
+            <label for="1">Python</label><br>
+            <input type="checkbox" id="2" name="courses" value="MATLAB">
+            <label for="2">MATLAB</label><br>
+            <input type="checkbox" id="3" name="courses" value="Machine learning">
+            <label for="3">Machine learning</label><br>
+            <input type="checkbox" id="4" name="courses" value="Ethical Hacking">
+            <label for="4">Ethical Hacking</label><br>
+            <input type="checkbox" id="5" name="courses" value="MySQL">
+            <label for="5">MySQL</label><br>
+            <p class="Conc">Contact details</p>
+            <div class="contact">
+            Email *:<br>
+            <input type="email" placeholder="Enter your email"><br>
+            Phone number *:<br>
+            <input type="number" placeholder="Enter your number" minlength="10"><br>
+            </div>
+            <p class="Proof-Submission">Proof Submission</p>
+            <div class="proof">
+            Id proof *:<br>
+            <select name="Proof type" id="proof">
+                <option value="Student ID">Student ID</option>
+                <option value="Aadhaar Card">Aadhaar Card</option>
+            </select><br><br>
+            <label for="choose-file" class="label-title">Upload *</label><br>
+            <input type="file" id="choose-file" size="80"><br>
+            </div>
+            <hr class="line">  
+            <br>
+            <div class="button">
+            <button type="submit" class="bt">SUBMIT</button> 
+            </div>         
+         </div>
+         </form>
+</html>

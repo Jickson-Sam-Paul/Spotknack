@@ -1,0 +1,84 @@
+body
+{
+    background: linear-gradient(to right, #78a7ba 0%, #385D6C 50%, #78a7ba 99%);
+    background-image: url(https://images.squarespace-cdn.com/content/v1/56acc1138a65e2a286012c54/1578584959847-B2B6UF5E6YVSIYHINRHZ/notebook-336634_1920.jpg?format=2500w);
+
+}
+.form-main
+{
+    width:850px;
+    margin:30px auto;
+    background-color:tan;
+    border-radius: 10px;
+}
+
+div.form-head
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+div.form-body
+{
+    padding: 20px;
+    background-image: url(https://preview.pixlr.com/images/800wm/1450/2/1450204149.jpg);
+    border: 2px solid black;
+    border-radius: 10px;
+    line-height: 250%;
+}
+div.First
+{
+    float: left;
+    width: 49%;
+}
+div.contact
+{
+    position: absolute;
+    left: 48%;   
+    top: 32%;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+p.conc
+{
+    position: absolute;
+    font-size: 20px;
+    left: 49.5%;   
+    top: 24%;
+    text-decoration: underline;
+
+}
+div.proof
+{
+    position: absolute;
+    left: 48%;   
+    top: 60%;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+div.button
+{
+    position: absolute;
+    left: 45%;
+    top: 93%;
+}
+.bt
+{
+    background-color: tan;
+    font-size: 20px;
+}
+hr.line
+{
+    border-top: 1px solid black;
+}
+p.Proof-Submission
+{
+    position: absolute;
+    font-size: 20px;
+    left: 49.5%;   
+    top: 52%;
+    text-decoration: underline;
+}
