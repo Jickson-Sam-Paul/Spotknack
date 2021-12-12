@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #83d5f5 0%, #fa858542 100%);
-  color: white;
+  background-image: linear-gradient(360deg, #000000 0%, rgb(50, 119, 248) 100%);
+  color:black;
   min-height: 100vh;
 }
 header {
@@ -23,7 +23,7 @@ form {
   margin-left: 0.3rem;
   font-size: 1.2rem;
   border: none;
-  background: rgb(250, 244, 189);
+  background: rgb(0, 0, 0);
   color: rgb(50, 119, 248);
   opacity: 1;
   transition: all 0.3s ease;
@@ -31,8 +31,8 @@ form {
 .todo-button:hover {
   opacity: 1;
   cursor: pointer;
-  color: rgb(250, 243, 184);
-  background-color: rgb(117, 219, 250);
+  color: rgb(0, 0, 0);
+  background-color: rgb(50, 119, 248);
 }
 form input {
   width: 15%;
@@ -49,14 +49,18 @@ form input {
 }
 
 .todo-input {
-  height: 2rem;
+  height: 3rem;
   width: 30rem;
+  background-color: #020303;
+  color:rgb(50, 119, 248);
+  font-size: 1.7rem;
 }
 .todo {
   margin: 0.5rem;
-  background: white;
-  font-size: 1.5rem;
+  padding-right: 0.3rem;
+  background: rgb(50, 119, 248);
   color: black;
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,16 +72,31 @@ form input {
 
 .trash-btn,
 .complete-btn {
-  background: rgb(253, 247, 186);
-  color: white;
+  background: rgb(0, 0, 0);
+  color: rgb(50, 119, 248);
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  margin-left: 0.2rem;
 }
 
 .complete-btn {
-  background: #bae9fc;
+  background:black;
+  color: rgb(50, 119, 248);
+  border: solid rgb(50, 119, 248);
+}
+.complete-btn:hover
+{
+  background-color: rgb(50, 119, 248);
+  color: #020303;
+  transition-duration: 1s;
+}
+.trash-btn:hover
+{
+  background-color: rgb(50, 119, 248);
+  color: #020303;
+  transition-duration: 1s;
 }
 .todo-item {
   padding: 0rem 0.5rem;
@@ -90,5 +109,5 @@ form input {
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.8;
 }
